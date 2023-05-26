@@ -1,0 +1,56 @@
+@media (min-width:1200px)
+{
+    #menu-icon
+    {
+        display: none;
+    }
+}
+@media (max-width:1200px)
+{
+    .navbar
+    {
+        display: none;
+    }
+}
+@media (min-width:577px)
+{
+    .container
+    {
+        display: none;
+    }
+}
+@media (max-width:576px)
+{
+    .navbar
+    {
+        display: none;
+    }
+    .home
+    {
+        margin: 0;padding: 0;
+    }
+    .home-content
+    {
+        padding-top: 0vh;
+        text-align: center;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+    .home-img
+    {
+        display: none;
+    }
+    .container
+    {
+        background-color: transparent;
+    }
+    .btn
+    {
+        margin: 1rem;
+    }
+    footer
+    {
+        height: 5vh;
+    }
+    
+}
