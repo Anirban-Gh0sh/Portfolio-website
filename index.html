@@ -19,14 +19,15 @@
 <body>
     <header class="header">
         <a href="" class="logo">Anirban</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-            <a href="#home" class="active" >Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="#services">Services</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
+        <button id="toggleButton"></button>
+    
     </header>  
     
     <main>  
@@ -52,6 +53,14 @@
             <div class="home-img">
                 <img src="images/Picsart_23-05-24_01-21-00-311(1).png" alt="Anirban Ghosh" id="bouncing-image">
             </div>
+
+            <!-- drop down menu codes -->
+            <ul id="menu-id" class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
         </div>        
     </main>
 
@@ -60,15 +69,8 @@
             <p>&copy; 2023 Anirban's Portfolio Website. All rights reserved.</p>
         </div>
     </footer>
-      
 
-    
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['Software Engineer.','Java Developer.', ' Front End Developer.',' Web Designer.','Software Engineer.','Java Developer.', ' Front End Developer.',' Web Designer.','Software Engineer.','Java Developer.', ' Front End Developer.',' Web Designer.'],
-          typeSpeed: 70,
-        });
-      </script>
+    <script src="script.js"></script>
 </body>
 </html>

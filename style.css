@@ -42,6 +42,16 @@ body
     font-weight: 600;
     cursor: default;
 }
+#myButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .show{display: none;}
+  
 .navbar a
 {
     font-size: 2.3rem;
@@ -202,6 +212,8 @@ span
     animation-name: bounce;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    box-shadow: 0 0 1rem #ffff00;
+    border-radius: 50%;
   }
   
   @keyframes bounce {
@@ -221,10 +233,6 @@ span
       transform: translateY(0);
     }
   }
-/* footer {
-    padding: 20px;
-    text-align: center;
-} */
 
   .footer {
     background: rgb(0, 0, 36);
@@ -239,4 +247,51 @@ span
     font-size: 14px;
   }
 
+  /* drop down menu */
+  body{margin: 0;padding: 0;}
+  .menu {
+    position: fixed;
+    width: 100vw;
+    /* border: red 3px solid; */
+    margin-top: 0vh;
+    display: none;
+    list-style: none;
+    padding: 0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
   
+  .menu li {
+    background-color: rgb(0,0,36);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu li a {
+    font-size: 2.3rem;
+    font-weight: 501;
+    color: white;
+    text-decoration: none;
+  }
+  .menu li a:hover
+  {
+    color: #ffff00;
+  }
+  #toggleButton 
+  {
+    height: 1vh;
+    width: 3vw;
+    background-color:white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #toggleButton:hover {
+    background-color: yellow;
+  }
+  #myButton
+  {
+    float: right;
+  }
